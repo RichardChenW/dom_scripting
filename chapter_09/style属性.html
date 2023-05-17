@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="scripts/addLoadEvent.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="inner">hello world</h1>
+    </div>
+    <script>
+      let h1 = document.getElementsByTagName('h1')[0];
+      console.log(h1.parentNode);
+      h1.style.color = 'red';
+      h1.style.fontSize = '60px';
+      let h1Parent = h1.parentNode;
+      h1Parent.style.backgroundColor = 'skyblue';
+      h1Parent.style.width = "400px";
+      h1Parent.style.height = "400px";
+
+    </script>
+  </body>
+</html>
